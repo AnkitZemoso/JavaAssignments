@@ -6,7 +6,10 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+/*
+Using TextFile and a Map<Character,Integer>, create a program that takes the file name as a command line argument and counts the occurrence of all the different characters. 
+Save the results in a text file.
+*/
 public class Assignment11_CheckOccurence {
     public static void checkOccurence(String fileName) throws IOException {
         FileReader reader=new FileReader(fileName);
