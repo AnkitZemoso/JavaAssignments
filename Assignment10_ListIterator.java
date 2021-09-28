@@ -2,7 +2,9 @@ package com.ankit.JavaAssignment;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
-
+/*
+Create a linklist class and iterate the class using ListIterator.
+*/
 public class Assignment10_ListIterator {
     public static void main(String[] args) {
         LinkedList<Integer> list=new LinkedList<Integer>();
